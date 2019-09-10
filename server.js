@@ -12,14 +12,18 @@ const solution = fn([
   "bilal",
   "labil",
   "hi",
-  "ho"
+  "ho",
+  "oh"
 ]);
 
 console.log(solution);
+
+// we precise the static folder for css and images ...
 const staticFolder = path.join(__dirname, "views");
 server.use("/views", express.static(staticFolder));
 server.use(bodyParser.json());
 
+//// we tell ejs where is the locations of html files
 server.set("views", path.join(__dirname, "views"));
 server.set("view engine", "ejs");
 
