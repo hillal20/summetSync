@@ -1,0 +1,56 @@
+.container {
+
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.solution {
+    border: 2px solid black;
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row
+}
+
+.headers {
+    border: 2px solid black;
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px
+}
+
+.test {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-right: 2px solid black;
+    width: 40vw;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.count {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid black;
+    width: 20vw;
+    text-align: center
+}
+
+.anagrams {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+    text-align: center
+}

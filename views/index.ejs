@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link href="/views/assets/style.css" rel="stylesheet" type="text/css" />
+    <title>Solution</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="headers">
+        <div class="test">Test</div>
+        <div class="count">Count</div>
+        <div class="anagrams">Anagrams</div>
+      </div>
+      <div class="solution">
+        <div class="test"><%= solution.test%></div>
+        <div class="count"><%= solution.count%></div>
+        <div class="anagrams">
+          <% for(let el of solution.result) { %>
+          <p><%= el%> ,</p>
+          <% } %>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
